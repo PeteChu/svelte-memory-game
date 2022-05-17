@@ -71,7 +71,9 @@
   </div>
 
   <div
-    class="grid grid-cols-3 gap-1 {!gameStarted || gameOver
+    class="grid grid-cols-3 gap-1 {!gameStarted ||
+    gameOver ||
+    countdownSeconds > 0
       ? 'pointer-events-none'
       : ''}"
   >
